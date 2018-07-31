@@ -1,0 +1,25 @@
+@media (min-width: 600px) {
+    .navbar.scrolling-navbar {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item.active > .nav-link {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar .dropdown-menu {
+    padding: 0.5rem;
+}
+
+.navbar .dropdown-menu a:hover {
+    background-color: #d50000;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+
+.navbar .dropdown-menu a:hover button {
+    background-color: transparent;
+    color: #ffffff !important;
+}

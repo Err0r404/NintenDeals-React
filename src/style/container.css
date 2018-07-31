@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+body>#root>div>.container {
+    padding-bottom: 68px; /* Footer's height */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
