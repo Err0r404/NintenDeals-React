@@ -1,7 +1,7 @@
 // Dedicated uri for localhost
-let baseUri = 'https://www.nintendeals.jschmitt.fr/';
+let baseUri = '//www.nintendeals.jschmitt.fr/api/';
 
 if(window.location.hostname === "localhost")
-    baseUri = 'http://nintendeals.local/';
+    baseUri = '//nintendeals.local/';
 
 export default baseUri;
